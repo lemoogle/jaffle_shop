@@ -6,10 +6,10 @@ jaffle_shop:
       account: sc78292.eu-west-3.aws
 
       # User/password auth
-      user: martin
+      user: MARTIN
       password: Sifflet123
 
-      role: ACCOUNT_ADMIN
+      role: ACCOUNTADMIN
       database: SIFFLET
       warehouse: COMPUTE_WH
       schema: SIFFLET_TEST_DATA
