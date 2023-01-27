@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: packages
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: locations
+      - name: order_items
+      - name: orders
+      - name: products
+      - name: supplies
