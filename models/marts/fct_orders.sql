@@ -2,31 +2,31 @@ with
 
 orders as (
 
-    select * from {{ ref('stg_jaffle_shop__orders') }}
+    select * from {{ ref('stg_orders') }}
 
 ),
 
 order_items as (
 
-    select * from {{ ref('stg_jaffle_shop__order_items') }}
+    select * from {{ ref('stg_order_items') }}
 
 ),
 
 products as (
 
-    select * from {{ ref('stg_jaffle_shop__products') }}
+    select * from {{ ref('stg_products') }}
 
 ),
 
 locations as (
 
-    select * from {{ ref('stg_jaffle_shop__locations') }}
+    select * from {{ ref('stg_locations') }}
 
 ),
 
 supplies as (
 
-    select * from {{ ref('stg_jaffle_shop__supplies') }}
+    select * from {{ ref('stg_supplies') }}
 
 ),
 
