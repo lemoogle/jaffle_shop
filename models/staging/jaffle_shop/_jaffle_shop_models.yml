@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_customers
+  - name: STG_CUSTOMERS
     description: Staging model for the customers data from our jaffle shop
     columns:
       - name: customer_id
@@ -9,7 +9,7 @@ models:
           - unique
           - not_null 
           
-  - name: stg_locations
+  - name: STG_LOCATIONS
     description: Staging model for the locations data from our jaffle shop
     columns:
       - name: location_id
@@ -17,7 +17,7 @@ models:
           - unique
           - not_null 
           
-  - name: stg_order_items
+  - name: STG_ORDER_ITEMS
     description: Staging model for the order_items data from our jaffle shop
     columns:
       - name: order_item_id
@@ -33,7 +33,7 @@ models:
           - unique
           - not_null 
           
-  - name: stg_products
+  - name: STG_PRODUCTS
     description: Staging model for the products data from our jaffle shop
     columns:
       - name: product_id
@@ -41,7 +41,7 @@ models:
           - unique
           - not_null 
 
-  - name: stg_supplies
+  - name: STG_SUPPLIES
     description: Staging model for the products data from our jaffle shop
     columns:
       - name: supply_uuid
