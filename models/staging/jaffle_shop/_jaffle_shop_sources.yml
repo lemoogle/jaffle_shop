@@ -1,13 +1,13 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
-    database: dbt_demo_data
-    schema: ecommerce
+  - name: JAFFLE_SHOP
+    database: DBT_DEMO_DATA
+    schema: ECOMMERCE
     tables:
-      - name: customers
-      - name: locations
-      - name: order_items
-      - name: orders
-      - name: products
-      - name: supplies
+      - name: CUSTOMERS
+      - name: LOCATIONS
+      - name: ORDER_ITEMS
+      - name: ORDERS
+      - name: PRODUCTS
+      - name: SUPPLIES
