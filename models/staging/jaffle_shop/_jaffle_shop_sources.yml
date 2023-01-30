@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: JAFFLE_SHOP
+  - name: jaffle_shop
     database: DBT_DEMO_DATA
     schema: ECOMMERCE
     tables:
