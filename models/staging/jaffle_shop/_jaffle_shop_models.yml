@@ -25,7 +25,7 @@ models:
           - unique
           - not_null 
           
-  - name: stg_orders
+  - name: STG_ORDERS
     description: Staging model for the orders data from our jaffle shop
     columns:
       - name: order_id
