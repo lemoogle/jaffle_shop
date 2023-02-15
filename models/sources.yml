@@ -1,0 +1,11 @@
+sources:
+  - name: jaffle_shop_raw
+    database: dbt_demo_data
+    schema: ecommerce
+    tables:
+      - name: customers
+      - name: locations
+      - name: order_items
+      - name: orders
+      - name: products
+      - name: supplies
