@@ -5,7 +5,7 @@ with source as (
     our data in this project
     #}
    {# select * from {{ source('jaffle_shop_raw', 'customers') }} #}
-   select * from {{ref('raw_orders')}}
+   select * from {{ref('raw_customers')}}
 
 ),
 
